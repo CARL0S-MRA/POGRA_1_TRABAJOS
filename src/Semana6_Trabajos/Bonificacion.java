@@ -11,11 +11,11 @@ public class Bonificacion extends Empleado{
     }
     
     public double CalcularBoni(){
-        if (salario > 45000) {
+        if (salario >=45000) {
             return salario * 0.20;
-        }else if(salario > 25000 && salario <= 45000 && antiguedad > 7){
+        }else if(salario > 25000 && salario <= 45000 && antiguedad >=7){
             return salario * 0.15;
-        }else if(salario > 18900 && antiguedad > 5){
+        }else if(salario >=18900 && antiguedad >=5){
             return salario * 0.10;
         }
         return salario;
