@@ -49,6 +49,14 @@ public class Empleado {
         this.edad = edad;
     }
     
+    public int getAntiguedad(){
+        return antiguedad;
+    }
+    
+    public void setAntiguedad(int antiguedad){
+        this.antiguedad=antiguedad;
+    }
+    
     
     
 }
