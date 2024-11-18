@@ -26,13 +26,13 @@ public class Bonificacion extends Empleado{
     }
     
     public void mostrar(){
-        System.out.println("Nombre del empleado: " + nombre);
-        System.out.println("Genero del empleado: " + genero);
-        System.out.println("Edad del empleado: " + edad);
-        System.out.println("Antiguedad del empleado: " + antiguedad + " anios");
-        System.out.println("Salario base del empleado: Lps. " + salario);
-        System.out.println("Bonificacion: Lps. " + bonificacion);
-        System.out.println("Salario final con bonificacion: Lps. " + calcularSalario());
+        System.out.println("Nombre del empleado: " + nombre
+                    +"\n Genero del empleado: " + genero
+                    +"\n Edad del empleado: " + edad
+                    +"\n Antiguedad del empleado: " + antiguedad + " anios"
+                    +"\n Salario base del empleado: Lps. " + salario
+                    +"\n Bonificacion: Lps. " + bonificacion
+                    +"\n Salario final con bonificacion: Lps. " + calcularSalario());
     }
     
 }
