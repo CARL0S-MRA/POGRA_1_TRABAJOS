@@ -32,7 +32,7 @@ public class Main {
                     cuenta.retirar(retirar);
                     break;
                 case 3:
-                    break;
+                    return;
                 default:
                     System.out.println("SALIENDO.....");
         }
